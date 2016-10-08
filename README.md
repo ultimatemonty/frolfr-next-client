@@ -1,10 +1,17 @@
-# Frolfr-client
+# Frolfr-next
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+[![CircleCI](https://circleci.com/gh/ultimatemonty/frolfr-next-client/tree/master.svg?style=svg)](https://circleci.com/gh/ultimatemonty/frolfr-next-client/tree/master
+
+## Goals
+This is an attempt to rewrite [frolfr](frolfr.com) using modern Ember practices. It's mostly a way for me to experiment with newer Ember patterns and practices. The goals for this app are as follows:
+
+* Offline first
+* Mobile first
+* Native feel via a webapp
+* Follow current Ember best practices
+* Use as many of the newer features as possible
 
 ## Prerequisites
-
 You will need the following things properly installed on your computer.
 
 * [Git](http://git-scm.com/)
@@ -50,4 +57,3 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
