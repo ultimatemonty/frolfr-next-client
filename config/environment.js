@@ -16,6 +16,18 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
+    },
+
+    'ember-simple-auth': {
+      authorizer: 'simple-auth-authorizer:jwt',
+      authenticator: 'simple-auth-authenticator:auth0-lock',
+      authenticationRoute: 'application',
+      routeIfAlreadyAuthenticated: 'app.home',
+      routeAfterAuthentication: 'app.home',
+      'auth0': {
+        clientID: "LgNGQR3Lkr6LAxQhMhDFfIoD3OImBhXH",
+        domain: "ultimatemonty.auth0.com"
+      }
     }
   };
 

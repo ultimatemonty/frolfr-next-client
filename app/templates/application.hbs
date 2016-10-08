@@ -1,0 +1,8 @@
+<h1>Welcome to Frolfr</h1>
+
+{{#if session.isAuthenticated}}
+  <a {{ action 'logout' }}>Logout</a>
+{{else}}
+  <a {{ action 'login' }}>Login</a>
+{{/if}}
+{{outlet}}
