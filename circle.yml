@@ -4,7 +4,7 @@ machine:
     YARN_VERSION: 0.18.0
     PATH: "${PATH}:${HOME}/.yarn/bin"
   node:
-    version: 5.0.0
+    version: 6.9.2
 
 ## Customize dependencies
 dependencies:
