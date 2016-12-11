@@ -1,15 +1,26 @@
 ## Server customizations
 machine:
+  environment:
+    YARN_VERSION: 0.18.0,
+    PATH: "${PATH}:${HOME}/.yarn/bin"
   node:
-    version: 4.4.7
+    version: 5.0.0
 
 ## Customize dependencies
 dependencies:
   pre:
-    - npm install -g bower
-    - npm install -g phantomjs-prebuilt@"~2.1.8"
+    - |
+      if [[ ! -e ~/.yarn/bin/yarn || $(yarn --version) != "${YARN_VERSION}" ]]; then
+        curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version $YARN_VERSION
+      fi
+    - yarn global add bower
+    - yarn global add phantomjs-prebuilt@"~2.1.8"
     - bower install
-
+  cache_directories:
+    - ~/.yarn
+    - ~/.yarn-cache
+  override:
+    - yarn install
 ## Deployment settings
 deployment:
   staging:
