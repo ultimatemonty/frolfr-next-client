@@ -1,7 +1,7 @@
 ## Server customizations
 machine:
   environment:
-    YARN_VERSION: 0.18.0,
+    YARN_VERSION: 0.18.0
     PATH: "${PATH}:${HOME}/.yarn/bin"
   node:
     version: 5.0.0
