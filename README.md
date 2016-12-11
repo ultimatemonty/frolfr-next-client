@@ -1,22 +1,29 @@
-# client
+# Frolfr-next
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+[![CircleCI](https://circleci.com/gh/ultimatemonty/frolfr-next-client/tree/master.svg?style=svg)](https://circleci.com/gh/ultimatemonty/frolfr-next-client/tree/master
+
+## Goals
+This is an attempt to rewrite [frolfr](frolfr.com) using modern Ember practices. It's mostly a way for me to experiment with newer Ember patterns and practices. The goals for this app are as follows:
+
+* Offline first
+* Mobile first
+* Native feel via a webapp
+* Follow current Ember best practices
+* Use as many of the newer features as possible
 
 ## Prerequisites
-
 You will need the following things properly installed on your computer.
 
-* [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/) (with NPM)
-* [Bower](https://bower.io/)
-* [Ember CLI](https://ember-cli.com/)
+* [Git](http://git-scm.com/)
+* [Node.js](http://nodejs.org/) (with NPM)
+* [Bower](http://bower.io/)
+* [Ember CLI](http://ember-cli.com/)
 * [PhantomJS](http://phantomjs.org/)
 
 ## Installation
 
 * `git clone <repository-url>` this repository
-* `cd client`
+* `cd frolfr-client`
 * `npm install`
 * `bower install`
 
@@ -46,7 +53,7 @@ Specify what it takes to deploy your app.
 ## Further Reading / Useful Links
 
 * [ember.js](http://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
+* [ember-cli](http://ember-cli.com/)
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
