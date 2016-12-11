@@ -1,6 +1,6 @@
 # Frolfr-next
 
-[![CircleCI](https://circleci.com/gh/ultimatemonty/frolfr-next-client/tree/master.svg?style=svg)](https://circleci.com/gh/ultimatemonty/frolfr-next-client/tree/master
+[![CircleCI](https://circleci.com/gh/ultimatemonty/frolfr-next-client/tree/master.svg?style=svg)](https://circleci.com/gh/ultimatemonty/frolfr-next-client/tree/master)
 
 ## Goals
 This is an attempt to rewrite [frolfr](frolfr.com) using modern Ember practices. It's mostly a way for me to experiment with newer Ember patterns and practices. The goals for this app are as follows:
